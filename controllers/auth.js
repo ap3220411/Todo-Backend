@@ -50,7 +50,7 @@ const signup= (req, res) => {
                             to: user.email,
                             subject: 'Active Your Todo Account',
                             html: `<p> hey! ${user.name}, You Wll be created You Todo Account Plz Verify Your Account in following ink </p>
-                                <a href=`${process.env.BACKEND_URL}/auth/Active/${Token}`>Activate Account</a> `
+                                <a href="https://todo-backend-m24s.onrender.com/auth/Active/${Token}">Activate Account</a> `
                         };
 
 

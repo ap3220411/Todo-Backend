@@ -22,7 +22,7 @@ const fetchTodos = (req, res) => {
 };
 
 //tip: whenever you want design an api where docuemnt will be updated or delete always spicify the id or docid in the urk params of a ap
-//update todo(we need ,userid ,title ,decripation,completed ,todoid)
+  //update todo(we need ,userid ,title ,decripation,completed ,todoid)
 
 const UpdataTodos = (req, res) => {
   const { Complete } = req.body;

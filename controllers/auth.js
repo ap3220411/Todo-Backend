@@ -255,12 +255,7 @@ const changePassword = (req, res) => {
 module.exports = {
     login,
     signup,
-<<<<<<< HEAD
     activateAccount,
     changePassword,
     otpSend
 }
-=======
-    activateAccount
-}
->>>>>>> origin/master
